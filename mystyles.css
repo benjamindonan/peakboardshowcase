@@ -1,1 +1,20 @@
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+.row-padding{
+  padding: 4vh;
+    
+}
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+    
+    
+.footer-main{ padding: 2.5rem 0;
+color: #999;
+text-align: center;
+background-color: #f9f9f9;
+border-top: .05rem solid #e5e5e5;
+}
+.footer-main p:last-child {
+  margin-bottom: 0;
+}
+

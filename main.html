@@ -23,26 +23,31 @@
 	<main role="main">
 		<!-- Hero -->
 		<div class="container-fluid bg-primary text-white">
-			<div class="row">
-				<div class="col-sm">
+			<div class="row row-padding">
+				<div class="col-lg">
 					<figure>
 						<img alt="peakborad logo" src="PeakBoard-Logo_white.png">
+                        <h1 class="title">Showcase</h1>
 					</figure>
-					<h1 class="title">Showcase</h1>
+					
 				</div>
-				<div class="col-sm">
+				<div class="col-md">
 					<h2 class="title">About</h2>
 					<p>This GitHub repository is intended to collect creative, funny and cool boards created with the Peakboard-Designer. Feel free to add and remix your own Peakboard designs All samples and boards must be placed in their own directory. Beside the .pbmx file this directory contains a screenshot and a short description on what the board is doing.</p>
 				</div>
-				<div class="col-sm">
+				<div class="col-md">
 					<h2 class="title">Requirements</h2>
 					<p>All boards in this GitHub repository require the latest stable version of the Peakboard-Designer application and runtime. Please check out www.peakboard.com for a free download.</p>
 				</div>
 			</div>
 		</div>
-        <!-- Navigation Bar -->
-		<div class="navbar navbar-expand-lg navbar sticky-top navbar-light" style="background-color: #e3f2fd;">
-			<div class="nav-item dropdown">
+        <nav class="navbar navbar-expand-md navbar-dark  bg-primary sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <div class="nav-item dropdown">
 				<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Catagories</a>
 				<div aria-labelledby="navbarDropdown" class="dropdown-menu">
 					<a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a>
@@ -60,10 +65,13 @@
 					<a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a> <a class="dropdown-item" href="#">link1</a>
 				</div>
 			</div>
-			<form class="form-inline mr-sm-2">
-				<input aria-label="Search" class="form-control mr-sm-2" placeholder="Visualising" type="search"> <button class="btn btn.outline-succes my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-			</form>
-		</div>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Visualizing..." aria-label="Search">
+            <button class="btn btn.outline-succes my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </nav>
 
         
 <div class="album py-5 bg-light">
@@ -74,7 +82,6 @@
 						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
 						<div class="card-body">
                         <h5 class="card-title">Twitter Feed</h5>
-						<p class="card-text">This board is a simple ready-to-use Twitter feed visualiziation. A List View element is used to present the feed. Just open the datasource and adjust the hashtag to your needs. You also may change the textbox on the board to a hashtag of your choice.</p>
 						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
@@ -84,85 +91,66 @@
 						<img class="card-img-top"  src="peakboard/DeutscheBahnAbfahrt.png" alt="Placeholder image">
 						<div class="card-body">
                         <h5 class="card-title">German Railway</h5>
-						<p class="card-text">This boards shows a departure board for German railway station (including train type, delay, route etc...). The sample uses Stuttgart Main Station.
-To adjust the board to a different station, please adjust the EVA number in the URL of the JSon source (8000096 stands for Stuttgart). If you don't know the eva number of your station, you can use this query to submit your station name and the eva number is returned:
+						<p class="card-text"><small class="text-muted">Created by Peakboardo</small></p>
+					</div>
+                </div>
+            </div>
+                	<div class="col-md-4">
+					<div class="card mb-4 box-shadow ">
+						<img class="card-img-top"  src="peakboard/UniversalManufacturingBoard.png" alt="Placeholder image">
+						<div class="card-body">
+                        <h5 class="card-title">Universal Manufacturing Board</h5>
 
-https://open-api.bahn.de/bin/rest.exe/location.name?authKey=DBhackFrankfurt0316&lang=de&input=Stuttgart+hbf&format=json
-
-Please make sure to get your own API key and register and the developer portal of Deutsche Bahn:
-
-https://developer.deutschebahn.com/store/</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
                 	<div class="col-md-4">
 					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
+						<img class="card-img-top"  src="peakboard/CurrentTimeInSpokenWords.png" alt="Placeholder image">
 						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Current Time In Spoken Word</h5>
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
                 	<div class="col-md-4">
 					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
+						<img class="card-img-top"  src="peakboard/EmailShoutbox.png" alt="Placeholder image">
 						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Email Shoutout Box</h5>
+			
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
                 	<div class="col-md-4">
 					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
+						<img class="card-img-top"  src="peakboard/GermanNewsTagesschau.png" alt="Placeholder image">
 						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">German News</h5>
+			
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
                 	<div class="col-md-4">
 					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
+						<img class="card-img-top"  src="peakboard/SSB%20Departure%20Board.png" alt="Placeholder image">
 						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">SSB Depature Board</h5>
+			
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
                 	<div class="col-md-4">
 					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
+						<img class="card-img-top"  src="peakboard/WarehouseWorkload.png" alt="Placeholder image">
 						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-                </div>
-            </div>
-                	<div class="col-md-4">
-					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
-						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-                </div>
-            </div>
-                	<div class="col-md-4">
-					<div class="card mb-4 box-shadow ">
-						<img class="card-img-top"  src="peakboard/CommonTwitterFeed.png" alt="Placeholder image">
-						<div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Warehouse Workload</h5>
+				
+						<p class="card-text"><small class="text-muted">Created by Peakboard</small></p>
 					</div>
                 </div>
             </div>
@@ -171,13 +159,11 @@ https://developer.deutschebahn.com/store/</p>
 </div>
 </div>    
 </main>		
-        <div class="container">
-			<div class="container">
-				<div class="content has-text-centered">
+        <footer class="footer-main">
+				<div>
 					<p>©Copyright 2018 by Peakboard GMBH. All rights reversed.</p>
 				</div>
-			</div>
-		</div>
+		</footer>
 	
 </body>
 </html>
